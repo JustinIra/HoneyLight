@@ -39,5 +39,32 @@ h1,h2,h3,h4,h5,h6{
 .carousel-item img{
     object-fit: cover;
     height: 100%;
-    width: 100%
+    width: 100%;
+}
+.overlay{
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 0;
+}
+.btn-yellow{
+    background-color: #ED8E00;
+    padding: 10px 40px;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+}
+.btn-underlined{
+    padding: 3px 10px;
+    border-bottom: #ED8E00 3px solid;
+    text-decoration: none;
+    color: black;
+}
+.overlay-text{
+    position: relative;
+    z-index: 1;
+}
+.overlay-text img{
+    position: absolute;
 }
